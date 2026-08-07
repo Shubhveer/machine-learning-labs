@@ -20,8 +20,8 @@ This repository contains my Machine Learning laboratory assignments.
 ### Lab 2
 - Objective: To develop a Linear Regression model for predicting house/car prices using suitable dataset.
 - Files:
- - `Lab2_USA_Housing,ipnyb`
- -  `USA_Housing.csv`
+  - `Lab2_USA_Housing,ipnyb`
+  -  `USA_Housing.csv`
 ### Lab 3
 (To be added)
 
