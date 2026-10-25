@@ -19,6 +19,7 @@ This repository contains my Machine Learning laboratory practicals and assignmen
 | 4 | Decision Tree Classification | `winequality-red.csv` | `ML-PL4.ipynb` |
 | 5 | K-Nearest Neighbours (KNN) | `diabetes.csv` | `Lab5_KNN_Diabetes_Complete.ipynb` |
 | 6 | Artificial Neural Network (ANN) | `seeds_new.csv` | `ML-PL6.ipynb` |
+| 7 | Naïve Bayes Classifier | `Raisin_Dataset.xlsx` | `ML-Lab-7.ipynb` |
 | 8 | Support Vector Machine (SVM) | `ai4i2020.csv` | `ML-PL8.ipynb` |
 
 ## Lab Practicals
@@ -170,6 +171,35 @@ This repository contains my Machine Learning laboratory practicals and assignmen
 
 ---
 
+### Lab 7 - Naïve Bayes Classifier
+
+**Topic:** Raisin Classification (Kecimen and Besni) using Gaussian Naïve Bayes
+
+- Dataset inspection (900 records, numeric shape and size measurements, class label)
+- Univariate, Bivariate and Multivariate Analysis
+- Outlier detection using IQR
+- Class label encoding using LabelEncoder
+- Stratified 80/20 train-test split (720 training and 180 testing samples)
+- Gaussian Naïve Bayes classifier
+- Accuracy, Precision, Recall, F1-Score and Confusion Matrix
+- Training versus testing accuracy comparison
+
+**Key results:**
+
+- Test accuracy 0.8278, precision 0.7658, recall 0.9444, F1-score 0.8458
+- Confusion matrix [[64, 26], [5, 85]]; training accuracy 0.8375
+
+**Dataset:**
+
+- `Raisin_Dataset.xlsx`
+
+**Files:**
+
+- `ML-Lab-7.ipynb`
+- `Raisin_Dataset.xlsx`
+
+---
+
 ### Lab 8 - Support Vector Machine (SVM)
 
 **Topic:** Machine Failure Prediction using SVM (AI4I 2020 Predictive Maintenance Dataset)
@@ -212,6 +242,7 @@ This repository contains my Machine Learning laboratory practicals and assignmen
 - Seaborn
 - Scikit-learn
 - TensorFlow / Keras (Lab 6)
+- openpyxl (Lab 7, to read the Excel dataset)
 
 ## Repository Structure
 
@@ -241,6 +272,9 @@ machine-learning-labs/
 ├── ML-PL6.ipynb
 ├── seeds_new.csv
 │
+├── ML-Lab-7.ipynb
+├── Raisin_Dataset.xlsx
+│
 ├── ML-PL8.ipynb
 └── ai4i2020.csv
 ```
@@ -248,6 +282,6 @@ machine-learning-labs/
 ## How to Run
 
 1. Clone the repository: `git clone https://github.com/Shubhveer/machine-learning-labs.git`
-2. Install the libraries: `pip install pandas numpy matplotlib seaborn scikit-learn tensorflow jupyter`
+2. Install the libraries: `pip install pandas numpy matplotlib seaborn scikit-learn tensorflow openpyxl jupyter`
 3. Keep the notebook and its dataset file in the same folder.
 4. Open the notebook in Jupyter Notebook, VS Code or Google Colab and run all cells in order.
